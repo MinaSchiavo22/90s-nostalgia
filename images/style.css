@@ -122,7 +122,22 @@ html {
     background-color: #DDECF3; 
     display: none;
   }
-
+  .articles {
+    padding-bottom: 1.5em;
+  }
+  
+  .articles article {
+    width: 48%;
+    display: inline-block;
+    padding: 0 1em 1em;
+    text-align: left;
+    background-color: white;
+    margin-right: 2%;
+  }
+  
+  .articles article:last-child {
+    margin-right: 0;
+  }
   footer {
     background-color: black;
     color: white;
